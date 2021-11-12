@@ -1,2 +1,2 @@
-# autoclicker
-Simple autoclicker.
+# Sandbox
+Simple programs, thoughts, ideas.
