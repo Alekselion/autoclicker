@@ -23,8 +23,8 @@ def zodiac(year:int):
 if __name__ == "__main__":
     print(f"1999: {zodiac(1999)}")
     print(f"2000: {zodiac(2000)}")
+    print(f"'1999': {zodiac('1999')}")
     print(f"0000: {zodiac(0000)}")
     print(f"-1999: {zodiac(-1999)}")
     print(f"19.99: {zodiac(-19.99)}")
-    print(f"'1999': {zodiac('1999')}")
     print(f"'19a9': {zodiac('19a9')}")
