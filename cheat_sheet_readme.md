@@ -14,6 +14,23 @@ Symbol | Description | Example | Output
 1\. | Numbered list | 1\. item | At end of the table
 \- [ ] and - [x] | Execution list | \- [x] Done | At end of the table
 \> | Quote (> 1 lvl, >> 2 lvl, >>> 3 lvl and etc.) | > quote | At end of the table
+--- | Line | --- | At end of the table
+
+Table
+
+header1 | header2 | header3  
+\----------|----------|----------  
+col 1, row 1 | col 2, row 1 | col 3, row 1  
+col 1, row 2 | col 2, row 2 | col 3, row 2  
+col 1, row 3 | col 2, row 3 | col 3, row 3
+
+Output
+
+header1 | header2 | header3
+----------|----------|----------
+col 1, row 1 | col 2, row 1 | col 3, row 1
+col 1, row 2 | col 2, row 2 | col 3, row 2
+col 1, row 3 | col 2, row 3 | col 3, row 3
 
 # Header 1
 ## Header 2
@@ -55,7 +72,9 @@ if __name__ == "__main__":
 >> quote 2
 >>> quote 3
 
+# Line
+---
+
 # Bonus
 - [Shields](https://shields.io/)
-- [Emoji](https://www.webfx.com/tools/emoji-cheat-sheet/)
-:smile: :blush: :relaxed: :exclamation: :question: :x: :no_entry:
+- [Emoji](https://www.webfx.com/tools/emoji-cheat-sheet/) :smile: :blush: :relaxed: :exclamation: :question: :x: :no_entry:
